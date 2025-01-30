@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_3</title>
+    <!-- daisyUI and Tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/773d1c4a0a.js" crossorigin="anonymous"></script>
+    <!-- scriptcdn -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                pet_btn: '#FFDC26',
+                nav_bg: '#FFF9F4'
+              }
+            }
+          }
+        }
+    </script>
+    <!-- style -->
+     <style>
+        .adlam{
+            font-family: "ADLaM Display", serif;
+        }
+     </style>
+</head>
+<body class="adlam">
+    <header class="">
+        <!-- navbar -->
+         <nav class="bg-nav_bg">
+            <div class="navbar md:container mx-auto">
+                <div class="navbar-start gap-1">
+                  <img src="c1-assets/logo-header.png" alt="">
+                  <a class="text-[26px]">Browse<span class="text-pet_btn">4</span>Pets</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-[20px]">
+                    <li><a>Find a pet</a></li>
+                    <li><a>Breedst</a></li>
+                    <li><a>Contact us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end gap-4">
+                  
+                  <i class="fa-solid fa-bell text-[#111111] text-[25px] invisible md:visible"></i>
+                  <i class="fa-solid fa-magnifying-glass text-[25px] invisible md:visible"></i>
+                  <a class="btn text-[20px] border-yellow-300 invisible md:visible">Login</a>
+                  <a class="btn bg-pet_btn text-[20px] invisible md:visible">Register</a>
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Find a pet</a></li>
+                        <li><a>Breedst</a></li>
+                        <li><a>Contact us</a></li>
+                        <li><a>Item 3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+         </nav>
+        <!-- banner section -->
+          <section class="md:container mx-auto relative">
+                <!-- <div>
+                  <h1 class="text-5xl font-bold">Pamper Your Pet, Because They Deserve the Bes</h1>
+                  <p class="py-6">
+                    Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!
+                  </p>
+                  <button class="btn bg-pet_btn">Find a pet</button>
+                </div> -->
+                 
+                <div class="">
+                  <div class="ml-5 mr-5 md:mr-0 md:ml-4 absolute mt-8 z-10">
+                    <h1 class="text-[30px] md:text-[56px] leading-tight md:leading-normal">
+                      Pamper Your Pet, <br> Because They Deserve <br> the Best
+                    </h1>
+                    <div class="my-5">
+                      <p class="text-[16px] md:text-[20px] opacity-[0.7] mb-5">
+                        Discover a world of treats, toys, and essentials handpicked for <br class="hidden md:block"> your furry friends. Shop now and make tails wag with joy!
+                      </p>
+                      <button class="btn bg-pet_btn text-[16px] md:text-[20px] py-2 px-6 rounded-lg z-10">
+                        Find a pet
+                      </button>
+                    </div>
+                  </div>
+                  <div class="absolute top-60 md:top-10 mr-4 md:right-8 left-4 z-0">
+                    <img
+                      src="c1-assets/cat-big.png"
+                      alt="Cat"
+                      class="w-full"
+                    />
+                  </div>
+                </div>
+          </section>
+        <!-- main section -->
+         <main></main>
+    </header>
+    <!-- footer -->
+     <footer></footer>
+</body>
+</html>
