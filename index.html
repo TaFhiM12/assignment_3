@@ -45,7 +45,7 @@
         <div class="navbar container mx-auto">
             <div class="navbar-start gap-1">
               <img src="c1-assets/logo-header.png" alt="">
-              <a class="text-[26px]">Browse<span class="text-pet_btn">4</span>Pets</a>
+              <p class="text-[26px] invisible md:visible">Browse<span class="text-pet_btn">4</span>Pets</p>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1 text-[20px]">
@@ -89,35 +89,28 @@
     </nav>
     <hr class="sm:hidden">
     <!-- banner section -->
-    <section class="container mx-auto mb-[50px] sm:mb-[140px]">
-      <div class="relative">
-        <div class="md:absolute ml-5 mr-5 md:mr-0 md:ml-4 mt-8 z-10">
-          <h1 class="text-[29px] md:text-[30px] lg:text-[56px] leading-tight md:leading-normal">
-            Pamper Your Pet, <br> Because They Deserve <br> the Best
-          </h1>
-          <div class="my-5">
-            <p class="text-[15px] md:text-[16px] lg:text-[20px] opacity-[0.7] mb-5">
-              Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!
-            </p>
-            <button class="btn bg-pet_btn text-[15px] md:text-[16px] lg:text-[20px] py-2 px-6 rounded-lg z-10">
-              Find a pet
-            </button>
+    <section class="container mx-auto mb-[50px] sm:mb-[140px] h-[400px] md:h-[800px] md:relative mt-6 md:mt-24">
+          <!-- text -->
+           <div class="">
+            <div class="z-2 ml-4">
+              <h1 class="text-[29px] md:text-[30px] lg:text-[56px] leading-tight md:leading-normal animate-fade-in">
+                Pamper Your Pet, <br> Because They Deserve <br> the Best
+              </h1>
+              <div class="my-5">
+                <p class="text-[15px] md:text-[16px] lg:text-[20px] opacity-[0.7] mb-5 animate-fade-in delay-100">
+                  Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!
+                </p>
+                <button class="btn bg-pet_btn text-[15px] md:text-[16px] lg:text-[20px] py-2 px-6 rounded-lg z-10 animate-bounce delay-200">
+                  Find a pet
+                </button>
+             </div>
           </div>
-        </div>
-        <div class="mr-4 md:right-8 left-4 z-0">
-          <div>
-            <img
-            src="c1-assets/cat-big.png"
-            alt="Cat"
-            class="w-full"
-          />
-          </div>
-        </div>
-      </div>
+          <img src="c1-assets/cat-big.png" class="absolute md:absolute md:w-full -z-10  right-0 bottom-0" alt="">
+           </div>
     </section>
     <!-- main section -->
-    <main class="container mx-auto  border-orange-600 mb-[50px] sm:mb-[140px]">
-      <h1 class="text-[36px] mb-10">Browse By Categories</h1>
+    <main class="container mx-auto  border-orange-600 mb-[50px] md:mb-[140px]">
+      <h1 class="text-[36px] ml-4 mb-10">Browse By Categories</h1>
       <!-- cards -->
         <div class="grid grid-cols-2 p-3 md:grid-cols-3 lg:grid-cols-6 gap-5">
           <!-- card 1 -->
@@ -196,8 +189,8 @@
         </div>
     </main>
     <!-- trending pet products -->
-    <section class="bg-nav_bg">
-        <div class="container mx-auto py-16">
+    <section class="md:bg-nav_bg md:mb-[140px]">
+        <div class="container mx-auto md:py-16">
             <h1 class="text-[36px] mb-10 ml-4 md:ml-0">Trending Pet Products</h1>
           <!-- text section -->
             <div class="md:flex gap-3">
@@ -324,6 +317,37 @@
                 
             </div>
         </div>
+    </section>
+    <!--everyday law price  -->
+    <section class="container mx-auto md:mb-[140px]">
+      <h1 class="text-[36px] mb-[47px] mx-4 md:mx-0">Everyday low Price</h1>
+      <div class="md:flex md:gap-5">
+        <div class="bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] flex justify-between items-center p-10 rounded-xl md:w-3/5 h-[480px] mx-4 md:mx-0 mb-5 md:mb-0">
+          <!-- text -->
+           <div class="px-14">
+            <p class="text-[20px] opacity-[0.8]">Under Price</p>
+            <h1 class="text-[32px]">Pet Grooming mitt</h1>
+            <p class="text-white">Easy Hair Removal</p>
+            <h1 class="text-[56px]">$7.99</h1>
+           </div>
+           <!-- image -->
+            <div>
+              <img src="c1-assets/cute-dog-mid.png" alt="">
+            </div>
+        </div>
+        
+        <div class="bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] flex rounded-xl md:w-2/5 relative h-[480px] mx-4 md:mx-0">
+          <!-- text -->
+           <div class="px-20 mt-16">
+            <h1 class="text-[32px]">T-Shirt for Dogs</h1>
+            <h1 class="text-[56px] text-[#FFDC26]">$7.99</h1>
+           </div>
+           <!-- image -->
+            <div class="absolute right-0 bottom-0">
+              <img src="c1-assets/cute-pet-mid.png" alt="">
+            </divclass>
+        </div>
+      </div>
     </section>
     <!-- footer -->
     <footer></footer>
