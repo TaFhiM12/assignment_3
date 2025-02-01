@@ -105,7 +105,7 @@
                 </button>
              </div>
           </div>
-          <img src="c1-assets/cat-big.png" class="absolute md:absolute md:w-full -z-10  right-0 bottom-0" alt="">
+          <img src="c1-assets/cat-big.png" class="absolute md:w-full -z-10  right-0 bottom-0" alt="">
            </div>
     </section>
     <!-- main section -->
@@ -198,7 +198,7 @@
                 <div class="ml-10 pt-10 md:ml-10 md:mt-10">
                   <h1 class="text-[30px]">T-Shirt For Dogs</h1>
                   <p class="my-4 text-[16px] opacity-[0.8]">Discover a world of treats,toy,and <br> essentials handpicked for</p>
-                  <button class="btn">Shop Now</button>
+                  <button class="btn bg-pet_btn">Shop Now</button>
                 </div>
                 <!-- image -->
                 <div class="bottom-0 right-0 w-[200px] h-[250px] absolute">
@@ -318,29 +318,29 @@
             </div>
         </div>
     </section>
-    <!--everyday law price  -->
-    <section class="container mx-auto md:mb-[140px]">
+    <!--everyday low price  -->
+    <section class="container mb-20 md:mb-[200px] mx-auto">
       <h1 class="text-[36px] mb-[47px] mx-4 md:mx-0">Everyday low Price</h1>
       <div class="md:flex md:gap-5">
-        <div class="bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] flex justify-between items-center p-10 rounded-xl md:w-3/5 h-[480px] mx-4 md:mx-0 mb-5 md:mb-0">
+        <div class="bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] flex justify-between items-center rounded-xl  md:w-3/5 h-[480px] mx-4 md:mx-0 mb-5 md:mb-0 relative">
           <!-- text -->
-           <div class="px-14">
-            <p class="text-[20px] opacity-[0.8]">Under Price</p>
-            <h1 class="text-[32px]">Pet Grooming mitt</h1>
-            <p class="text-white">Easy Hair Removal</p>
-            <h1 class="text-[56px]">$7.99</h1>
+           <div class="md:ml-16  pb-72 md:pb-0 md:pl-24">
+            <p class="text-[20px] opacity-[0.8] hidden md:inline-block">Under Price</p>
+            <h1 class="text-[22px] md:text-[32px]">Pet Grooming mitt</h1>
+            <p class="text-white hidden md:inline-block">Easy Hair Removal</p>
+            <h1 class="text-[39px] md:text-[56px]">$7.99</h1>
            </div>
            <!-- image -->
-            <div>
-              <img src="c1-assets/cute-dog-mid.png" alt="">
+            <div class="absolute -right-32 md:right-0 bottom-0">
+              <img src="c1-assets/cute-dog-mid.png" class="w-[75%] md:w-[90%]" alt="">
             </div>
         </div>
         
         <div class="bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] flex rounded-xl md:w-2/5 relative h-[480px] mx-4 md:mx-0">
           <!-- text -->
            <div class="px-20 mt-16">
-            <h1 class="text-[32px]">T-Shirt for Dogs</h1>
-            <h1 class="text-[56px] text-[#FFDC26]">$7.99</h1>
+            <h1 class="text-[22px] md:text-[32px]">T-Shirt for Dogs</h1>
+            <h1 class="text-[39px] md:text-[56px] text-[#FFDC26]">$7.99</h1>
            </div>
            <!-- image -->
             <div class="absolute right-0 bottom-0">
@@ -349,7 +349,110 @@
         </div>
       </div>
     </section>
+
+    <!-- About dogs -->
+    <section class="container mb-20 md:mb-[200px] mx-auto">
+      <h1 class="text-[36px] mb-[47px] mx-4 md:mx-0">Different Dogs</h1>
+      <div class="md:flex md:gap-5 space-y-6 md:space-y-0">
+        <!-- Card 1-->
+        <div class="card bg-gradient-to-r from-gray-200 to-gray-300 md:w-1/3 shadow-xl mx-4 md:mx-0">
+          <figure class="px-10 pt-10">
+            <img src="c1-assets/cute-dog-mid.png" alt="German Shepherd" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center gap-4">
+            <h2 class="card-title text-[32px]">German Shepherd</h2>
+            <p class="text-[20px] opacity-[0.8]">
+              Known for their intelligence and loyalty, German Shepherds are excellent working dogs often used in police and military roles. They are highly trainable and make great family pets.
+            </p>
+            <div class="card-actions">
+              <button class="btn bg-pet_btn text-[20px]">Learn more</button>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 2-->
+        <div class="card  bg-gradient-to-r from-gray-200 to-gray-300 md:w-1/3 shadow-xl mx-4 md:mx-0">
+          <figure class="px-10 pt-10">
+            <img src="c1-assets/cute-dog-mid.png" alt="Beagle" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center gap-4">
+            <h2 class="card-title text-[32px]">Beagle</h2>
+            <p class="text-[20px] opacity-[0.8]">
+              Beagles are friendly, curious, and great with kids. They have an excellent sense of smell and are often used as detection dogs. Their playful nature makes them wonderful companions.
+            </p>
+            <div class="card-actions">
+              <button class="btn bg-pet_btn text-[20px]">Learn more</button>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 3 -->
+        <div class="card bg-gradient-to-r from-gray-200 to-gray-300 md:w-1/3 shadow-xl mx-4 md:mx-0">
+          <figure class="px-10 pt-10">
+            <img src="c1-assets/cute-dog-mid.png" alt="Bulldog" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center gap-4">
+            <h2 class="card-title text-[32px]">Bulldog</h2>
+            <p class="text-[20px] opacity-[0.8]">
+              Bulldogs are calm, courageous, and have a distinctive wrinkled face. They are known for their gentle temperament and make excellent companions for families and individuals alike.
+            </p>
+            <div class="card-actions">
+              <button class="btn bg-pet_btn text-[20px]">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- footer -->
-    <footer></footer>
+    <footer class="items-center pt-[250px] relative">
+      <!-- get  -->
+      <div class="">
+        <div class="bg-[#FFF9F4] md:flex text-center justify-between items-center p-10 rounded-xl container md:h-[480px]  mx-auto  mb-5 md:mb-0 absolute inset-x-0  top-0">
+          <!-- image -->
+          <div class="mx-auto md:ml-10 w-1/2">
+            <img src="c1-assets/cute-pet-mid.png" alt="">
+          </div>
+          <!-- text -->
+           <div class="text-center md:text-left flex flex-col justify-center mx-auto md:w-1/2 md:mr-24 gap-5">
+              <h1 class="text-[22px] md:text-[36px]">Get Pawsome News!</h1>
+              <p class="text-[16px] md:text-[20px] opacity-[0.8]">Exclusive training tips, ticks, product deals and more.</p>
+              <input class="h-16 p-4" type="email" name="" placeholder="Enter email...."  id="">
+              <button class="btn bg-pet_btn w-[120px] mx-auto md:mx-0">Subscribe</button>
+           </div>
+        </div>
+      </div>
+      <div class=" bg-pet_card_color h-[1000px] md:h-[600px]">
+        <div class="md:mx-[160px] grid grid-cols-1 md:grid-cols-3 gap-5 py-10 mx-auto items-center  justify-center px-5">
+          <!-- Left: Text -->
+          <div class="text-left mt-[500px] md:mt-[300px] pl-5 md:pl-0">
+            <div class="flex items-center gap-1 mb-2">
+              <img src="c1-assets/logo-footer.png" alt="">
+              <p class="text-[26px]">Browse<span class="text-pet_btn">4</span>Pets</p>
+            </div>
+            <p class="opacity-[0.8]">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
+          </div>
+    
+          <!-- Center: Links -->
+          <div class="md:text-center  md:mt-[300px] pl-5 md:pl-0">
+            <ul class="text-[20px]">
+              <li class="cursor-pointer"><a>Find a pet</a></li>
+              <li class="my-4"><a>Breeds</a></li>
+              <li class="mb-2"><a>Contact us</a></li>
+            </ul>
+          </div>
+    
+          <!-- Right: Follow Links -->
+          <div class="md:text-right md:mt-[330px] pl-5 md:pl-0">
+            <p class="text-[16px] mb-3 ">Follow Us</p>
+            <div class="flex gap-5 md:justify-end text-[24px]">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
